@@ -4,6 +4,7 @@ on:
   schedule:
     - cron: "14/10 22 * * *"
   push:
+  workflow_dispatch:
 
 jobs:
   checker:
