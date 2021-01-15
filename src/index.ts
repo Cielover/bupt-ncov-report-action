@@ -120,7 +120,7 @@ async function postDailyReportFormData(
 
     const formData = await getDailyReportFormData(client);
     
-    console.log("前一天填报的信息为："+JSON.stringify(formData));
+    // console.log("前一天填报的信息为："+JSON.stringify(formData));
 
     await sleep(randomBetween(1000, 2000));
 
