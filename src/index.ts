@@ -119,6 +119,8 @@ async function postDailyReportFormData(
     console.log("正在获取前一天的疫情填报信息");
 
     const formData = await getDailyReportFormData(client);
+    
+    console.log("前一天填报的信息为："+JSON.stringify(formData));
 
     await sleep(randomBetween(1000, 2000));
 
